@@ -11,12 +11,17 @@ const NavBar = () => {
     <Link href="/about" className="text-gray-600 hover:text-primary flex gap-2">
       About
     </Link>
-    <Link href="/contact" className="text-gray-600 hover:text-primary flex gap-2">
-      Contact
+    <Link href="/portfolio" className="text-gray-600 hover:text-primary flex gap-2">
+      Portfolio
     </Link>
     <Link href="/menu" className="text-gray-600 hover:text-primary flex gap-2">
       Menu
     </Link>
+    <Link href="/contact" className="text-gray-600 hover:text-primary flex gap-2">
+      Contact
+    </Link>
+   
+    
     <Link href="/login" className="bg-primary text-white rounded-full py-1 px-4 hover:bg-white hover:border-primary hover:text-primary">
       Login
     </Link>

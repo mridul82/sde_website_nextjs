@@ -1,4 +1,5 @@
 
+import Header from '@/components/layout/Header'
 import './globals.css'
 
 
@@ -13,8 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='font-poppins'>
-        <main >
+      <body className='font-poppins '>
+      <Header />
+        <main>
+         
           {children}
         </main>
       </body>

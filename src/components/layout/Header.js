@@ -7,7 +7,7 @@ const Header = () => {
   
 
   return (
-    <header className="flex items-center justify-between bg-white shadow-md p-4 h-13 px-5 md:px-32">
+    <header className="flex items-center justify-between bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 h-13 px-5 md:px-32">
       
       <Logo />
   

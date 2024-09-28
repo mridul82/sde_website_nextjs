@@ -48,6 +48,10 @@
     src: url('../../public/fonts/Poppins-Thin.ttf') format('truetype');
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-  }
+
+
+  body{
+    background-color: #fffff6;
+    color: #000000;
+    font-family: 'Poppins-Regular', sans-serif;
+}

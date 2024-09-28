@@ -1,10 +1,9 @@
-import Header from "@/components/layout/Header"
 
 
 export default function Home() {
   return (
-   <>
-  <Header />
-   </>
+    <div className="flex justify-center items-center">
+     
+    </div>
   )
 }
