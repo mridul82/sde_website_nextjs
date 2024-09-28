@@ -22,7 +22,7 @@ const NavBar = () => {
     </Link>
    
     
-    <Link href="/login" className="bg-primary text-white rounded-full py-1 px-4 hover:bg-white hover:border-primary hover:text-primary">
+    <Link href="/login" className="bg-primary text-white ml-5 py-2 px-5 rounded-full outline transition-all hover:bg-white hover:shadow-lg hover:border-black hover:text-primary">
       Login
     </Link>
   </nav>
