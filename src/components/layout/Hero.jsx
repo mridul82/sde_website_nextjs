@@ -6,7 +6,7 @@ const Hero = () => {
       <img src="../images/hero_image.png" alt="img" style={{ maxHeight: '500px', width: '90%', height: 'auto' }}  loading="lazy" />
     </div>
       <div className="w-full md:w-[55%] text-center p-5">
-      <h4 className="text-3xl md:text-5xl font-semibold leading-tight">
+      <h4 className="text-3xl md:text-5xl font-semibold leading-tight mb-4">
       Innovative Web Solutions for Your Digital Success</h4>
         <span className="text-brightGreen font-semibold"> "Empowering Businesses with Custom Website Design, Development, and SEO Services"</span>
       
