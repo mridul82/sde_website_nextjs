@@ -13,8 +13,8 @@ const Footer = () => {
                 <Image src="/images/sde_logo.jpeg" width={80} height={50}  alt="SDE Logo" />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                "Empowering Businesses with Custom Website Design, Development, and SEO Services"
-                </p>
+                Empowering Businesses with Custom Website Design, Development, and SEO Services
+                </p>  
                 <div className="flex flex-row items-center">
                 <a
                     href="/"
@@ -177,7 +177,7 @@ const Footer = () => {
         <div className="h-px w-full ">
         <div className="py-8">
             <p className="text-center text-base text-gray-900 ">
-              Develop by @SDE Solution Tech 
+              Develop by SDE Solution Tech 
               </p>
             </div>
         </div>
