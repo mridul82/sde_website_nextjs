@@ -1,31 +1,18 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
 
-const Service = ({title, description, link}) => {
+const Service = ({ title, description, link }) => {
   return (
-    
-    <div className='flex md:flex-row flex-col justify-center items-center m-3'>
-      <div className=" bg-white group flex flex-col items-center text-center gap-2 w-full   p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-      <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-      <div className=" flex flex-row justify-center">
-       <Image src={link} alt="img" width={50} height={50}  loading="lazy" />
+    <div className="bg-white rounded-lg shadow-md p-6 md:p-8 lg:p-10">
+      <div className="flex flex-col items-center md:items-start">
+        <Image src={link} alt={title} width={100} height={100} className="rounded-full mb-4" />
+        <h3 className="text-lg font-bold text-gray-600 mb-2">{title}</h3>
+        <p className="text-gray-600 mb-4">{description}</p>
+        <button className="bg-primary text-white rounded-full py-2 px-4 hover:bg-primary-dark">
+          Learn More
+        </button>
       </div>
-      </div>
-      <h1 className=" font-semibold text-lg">{title}</h1>
-      <p>
-      {description}
-      </p>
-<Link href="/">
-<h3 className="text-red-400 cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out" >
-        Learn more
-      </h3>
-</Link>
-      
     </div>
+  );
+};
 
-
-    </div>
-  )
-}
-
-export default Service
+export default Service;

@@ -13,7 +13,7 @@ const Hero = () => {
         <span className="text-brightGreen font-semibold text-black"> Empowering Businesses with Custom Website Design, Development, and SEO Services</span>
       
       <p className=" text-lightText mt-5 text-start">
-      At SDE Solutions, we specialize in creating dynamic, user-friendly websites that are tailored to meet your business goals. 
+      At ITNex Solutions, we specialize in creating dynamic, user-friendly websites that are tailored to meet your business goals. 
       From sleek, modern designs to seamless functionality, 
       we provide end-to-end services including custom web development, responsive design, and search engine optimization (SEO). 
       Our team of experts is dedicated to helping you establish a strong online presence, drive traffic, 
