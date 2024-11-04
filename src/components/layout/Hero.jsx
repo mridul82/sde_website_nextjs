@@ -1,27 +1,48 @@
 import Image from "next/image"
+import Link from "next/link"
+
 
 const Hero = () => {
+  
   return (
-    <div className='min-h-[70vh] flex flex-col md:flex-row md:justify-between items-center md:mx-25 mx-5 font:poppins-thin '>
-        <div className="  w-full md:w-[45%] p-3 m-5">
-          
-      <Image src="/images/hero_image.png" alt="img" width={600} height={500}  loading="lazy" />
-    </div>
-      <div className="w-full md:w-[55%] text-center p-5">
-      <h4 className="text-3xl md:text-5xl font-semibold leading-tight mb-4 text-primary">
-      Innovative Web Solutions for Your Digital Success</h4>
-        <span className="text-brightGreen font-semibold text-black"> Empowering Businesses with Custom Website Design, Development, and SEO Services</span>
+    <div className="min-h-[80vh] flex flex-col md:flex-row md:justify-between items-center md:mx-32 mx-6 font-poppins-thin">
       
-      <p className=" text-lightText mt-5 text-start">
-      At ITNex Solutions, we specialize in creating dynamic, user-friendly websites that are tailored to meet your business goals. 
-      From sleek, modern designs to seamless functionality, 
-      we provide end-to-end services including custom web development, responsive design, and search engine optimization (SEO). 
-      Our team of experts is dedicated to helping you establish a strong online presence, drive traffic, 
-      and grow your brand in today&apos;s competitive digital landscape. Let us turn your vision into reality!
+    {/* Image Container */}
+    
+      <Image
+        src="/images/hero_image.png"
+        alt="Innovative Web Solutions"
+        width={600}
+        height={500}
+        loading="lazy"
+        className="rounded-lg"
+      />
+    
+
+    {/* Content Container */}
+    <div className="w-full md:w-[50%] text-center md:text-left p-6 space-y-4">
+      <h4 className="text-4xl md:text-5xl font-semibold leading-tight text-primary mb-4">
+        Innovative Web Solutions for Your Digital Success
+      </h4>
+      <span className="text-xl font-semibold text-brightGreen">
+        Empowering Businesses with Custom Website Design, Development, and SEO Services
+      </span>
+      
+      <p className="text-lg text-lightText mt-6">
+        At ITNex Solutions, we specialize in creating dynamic, user-friendly websites tailored to meet your business goals.
+        From sleek, modern designs to seamless functionality, we provide end-to-end services including custom web development,
+        responsive design, and search engine optimization (SEO). Let us turn your vision into reality!
       </p>
-      </div>
       
+      {/* Button to navigate to another page */}
+      <Link href="/contact" 
+         className="mt-10 inline-block bg-primary text-white font-bold py-3 px-8 rounded-md hover:bg-secondary transition-all duration-300">
+          Get Started
+        
+      </Link>
     </div>
+
+  </div>
   )
 }
 

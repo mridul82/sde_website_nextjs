@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="w-full px-2 md:w-1/2">
               <div className=" mb-12 max-w-[400px] md:mb-16">
                 <Link href="/" className=" mb-8 inline-block">
-                <Image src="/images/sde_logo.jpeg" width={80} height={50}  alt="SDE Logo" />
+                <Image src="/images/ITNex_logo.jpg" width={80} height={50}  alt="ITNex Logo" />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                 Empowering Businesses with Custom Website Design, Development, and SEO Services
@@ -177,7 +177,7 @@ const Footer = () => {
         <div className="h-px w-full ">
         <div className="py-8">
             <p className="text-center text-base text-gray-900 ">
-              Develop by SDE Solution Tech 
+              Develop by ITNex Solution Tech 
               </p>
             </div>
         </div>
